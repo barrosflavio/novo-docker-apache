@@ -1,0 +1,52 @@
+
+.main-container {
+  height: auto;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-noticia-recado {
+  width: 55%;
+  margin-top: 115px;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #E61C21;
+  margin-bottom: 7px;
+}
+
+.subtitle {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.paragraph {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.new-paragraph {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 17px;
+}
+
+.notice-img {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 57%;
+  border-radius: 10px;
+}

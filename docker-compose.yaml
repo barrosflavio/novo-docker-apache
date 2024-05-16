@@ -1,0 +1,17 @@
+services:
+
+  apache:
+    image: httpd:latest
+    container_name: novo-links
+    ports:
+    - '80:80'
+    volumes:
+    - ./novo-links:/usr/local/apache2/htdocs
+  
+  # apache-dev:
+  #   image: httpd:latest
+  #   container_name: novo-links-dev
+  #   ports:
+  #   - '2356:80'
+  #   volumes:
+  #   - ./novo-links-dev:/usr/local/apache2/htdocs

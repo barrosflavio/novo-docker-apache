@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<!-- Metadata -->
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/scr/novo-links.svg" type="image/x-icon">
+  
+  <!-- Css Imports -->
+  <link rel="stylesheet" href="/styles/global.css">
+  <link rel="stylesheet" href="/styles/news.css">
+  
+  <!-- Title -->
+  <title>Novo Links</title>
+
+</head>
+
+<!-- Content -->
+<body>
+
+  <!-- Header -->
+  <header class="top-bar">
+
+    <!-- A with Novo Links logo -->
+    <a id="top-bar-mark-container" href="../index.html">
+      <img id="logo-top-bar" src="/scr/novo-links-extended.svg"
+      alt="Logotipo Novo Atacarejo">
+    </a> <!-- --------- END --------- -->
+
+    <!-- Search Container -->
+    <div class="search-container">
+      <img id="google-icon" src="../scr/google-icon.svg" alt="Logo do Google">
+      <input type="text" id="search-input" placeholder="Pesquisar no Google">
+      <button id="button-search" onclick="searchGoogle()">
+        <img id="search-icon" src="../scr/search-icon.svg" alt="">
+      </button>
+    </div> <!-- --------- END --------- -->
+
+    <!-- Import search bar script -->
+    <script src="../searchbar/script.js"></script>
+
+    <!-- Navigation bar container -->
+    <nav class="nav-bar">
+
+      <!-- Button notice -->
+      <a id="active-news-tab" class="nav-bar-news" href="/pages/news.html">
+        <img class="nav-bar-icons" src="/scr/noticias.svg" alt="Jornal">
+        <p class="nav-bar-text">Noticias e Recados</p>
+      </a>
+
+      <!-- Button store -->
+      <a class="nav-bar-itens" href="/pages/loja.html">
+        <img class="nav-bar-icons" src="/scr/loja.svg" alt="Laptop">
+        <p class="nav-bar-text">Loja</p>
+      </a>
+
+      <!-- Button office -->
+      <a class="nav-bar-itens" href="/pages/escritorio.html">
+        <img class="nav-bar-icons" src="/scr/escritorio.svg" alt="Laptop">
+        <p class="nav-bar-text">Escritório</p>
+      </a>
+
+      <!-- Button csc -->
+      <a class="nav-bar-itens" href="/pages/csc.html">
+        <img class="nav-bar-icons" src="/scr/csc.svg" alt="Laptop">
+        <p class="nav-bar-text">CSC</p>
+      </a>
+
+    </nav> <!-- --------- END --------- -->
+
+  </header> <!-- ------------------------ END Header ------------------------ -->
+
+  <!-- Main content container -->
+  <main class="main-container">
+    
+    <!-- Notices content container -->
+    <section class="section-news-container">
+      
+      <!-- Page title -->
+      <h1 id="news-title">Veja todas as noticias e recados:</h1>
+
+      <!-- Page wellcome -->
+      <p id="news-text">
+        Basta escolher um card e clicar em "Saiba mais" para ver o conteúdo completo
+      </p>
+
+      <!-- --------------------- MAX 3 notice container --------------------- -->
+      <div class="home-news-container">
+
+        <!-- Notice block -->
+        <div class="news-container-unity">
+
+          <a class="container-img-news" href="news/news5.html">
+            <img class="img-news" src="/scr/news/noticia5/recifenses.webp"
+            alt="Foto de pessoas com fone">
+            <p class="text-news">
+              Diretores recifenses?! Com o maior prazer e orgulho!!
+            </p>
+          </a>
+
+          <a class="more-news-button" href="news/news5.html">Saiba mais</a>
+
+        </div> <!-- --------- END --------- -->
+
+        <!-- Notice block -->
+        <div class="news-container-unity">
+
+          <a class="container-img-news" href="news/news4.html">
+            <img class="img-news" src="/scr/news/noticia4/melhores.webp"
+            alt="Imagem ilustrativa de grafico acima">
+            <p class="text-news">
+              Agora é oficial. Estamos entre os melhores do país!
+            </p>
+          </a>
+
+          <a class="more-news-button" href="news/news4.html">Saiba mais</a>
+
+        </div> <!-- --------- END --------- -->
+
+        <!-- Notice block -->
+        <div class="news-container-unity">
+
+          <a class="container-img-news" href="news/news3.html">
+            <img class="img-news" src="/scr/news/noticia3/trainee.webp"
+            alt="Carrinho de compras">
+            <p class="text-news">
+              Uma jornada desafiadora pra quem quer ficar em destaque e disparar
+              no Novo Atacarejo!
+            </p>
+          </a>
+
+          <a class="more-news-button" href="news/news3.html">Saiba mais</a>
+
+        </div> <!-- --------- END --------- -->
+
+      </div> <!-- --------------------- END MAX 3 notice container --------------------- -->
+
+      <!-- --------------------- MAX 3 notice container --------------------- -->
+      <div class="home-news-container">
+
+        <!-- Notice block -->
+        <div class="news-container-unity">
+
+          <a class="container-img-news" href="news/news2.html">
+            <img class="img-news" src="/scr/news/noticia2/trimestral.webp"
+            alt="Foto de pessoas com fone">
+            <p class="text-news">
+              A reunião mais importante do trimestre!
+            </p>
+          </a>
+
+          <a class="more-news-button" href="news/news2.html">Saiba mais</a>
+
+        </div> <!-- --------- END --------- -->
+
+        <!-- Notice block -->
+        <div class="news-container-unity">
+
+          <a class="container-img-news" href="news/news1.html">
+            <img class="img-news" src="/scr/news/noticia1/feirao.webp"
+            alt="Imagem ilustrativa de grafico acima">
+            <p class="text-news">
+              Feirão de Empregos Sine PE!
+            </p>
+          </a>
+
+          <a class="more-news-button" href="news/news1.html">Saiba mais</a>
+
+        </div> <!-- --------- END --------- -->
+
+      </div> <!-- --------------------- END MAX 3 notice container --------------------- -->
+
+    </section> <!-- ---------------- END Notices content Container ---------------- -->
+
+  </main> <!-- ---------------- END Main content Container ---------------- -->
+
+  <!-- Conteiner of footer content -->  
+  <footer class="footer-container">
+
+    <!-- Team Credits --> 
+    <p id="ti-mark-footer">Este site foi desenvolvido pela sua equipe de T.I 🤓 ❤️</p>
+
+    <!-- A containers --> 
+    <section class="footer-icons-container">
+
+      <a href="https://www.novoatacarejo.com" target="_blank">
+        <img class="footer-icons" src="/scr/logo-site.svg" alt="Logo do Novo">
+      </a>
+
+      <a href="https://www.youtube.com/channel/UCmpHHZSduDYRN_SAmdMKBYQ" target="_blank">
+        <img class="footer-icons" src="/scr/youtube.svg" alt="Logo do Youtube">
+      </a>
+      
+      <a href="https://www.instagram.com/novoatacarejo/" target="_blank">
+        <img class="footer-icons" src="/scr/instagram.svg" alt="Instagram">
+      </a>
+      
+      <a href="https://www.facebook.com/novoatacarejo/" target="_blank">
+        <img class="footer-icons" src="/scr/facebook.svg" alt="Logo do Facebook">
+      </a>
+      
+      <a href="https://br.linkedin.com/company/novoatacarejo" target="_blank">
+        <img class="footer-icons" src="/scr/linkedin.svg" alt="Logo do Linkedin">
+      </a>
+
+    </section> <!-- --------- END --------- -->
+
+    <!-- Mark -->
+    <p class="reservated">
+      Todos os direitos reservados ao Novo Atacado Comercio de Alimentos LTDA
+    </p>
+    
+  </footer> <!-- ------------------------ END Footer ------------------------ -->
+
+</body> <!-- ------------------------ END Content ------------------------ -->
+
+</html>

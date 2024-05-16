@@ -1,0 +1,138 @@
+.main-container {
+    height: auto;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content-container {
+    width: 1250px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-title {
+    margin-top: 105px;
+    margin-bottom: 55px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.setor-container {
+    width: 30%;
+    margin: 15px;
+}
+
+.div-title {
+    width: 100%;
+    color: #ffff;
+    background-color: #8a8a8a;
+    border: solid 3px #8a8a8a;
+    border-radius: 10px 10px 0 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    border: solid 3px #8a8a8a;
+    border-radius: 0 0 15px 15px;
+}
+
+#dext {
+    background-color: #44678d;
+    border: solid 3px #44678d;
+}
+
+#painel-novo {
+    color: #000;
+    background-color: #fec95c;
+    border: solid 3px #fec95c;
+}
+
+#webmail {
+    background-color: #fa0b36;
+    border: solid 3px #fa0b36;
+}
+
+#consinco {
+    color: #000;
+    background-color: #fdca00;
+    border: solid 3px #fdca00;
+}
+
+#novoweb {
+    background-color: #fa0b36;
+    border: solid 3px #fa0b36;
+}
+
+#acesso-novo {
+    background-color: #102f72;
+    border: solid 3px #102f72;
+}
+
+#tlantic {
+    background-color: #18a2dc;
+    border: solid 3px #18a2dc;
+}
+
+#ecold {
+    background-color: #3a5d3a;
+    border: solid 3px #3a5d3a;
+}
+
+#vizzoo {
+    background-color: #ff6600;
+    border: solid 3px #ff6600;
+}
+
+#cracha {
+    background-color: #343a40;
+    border: solid 3px #343a40;
+}
+
+#portalcred {
+    background-color: #2e72c5;
+    border: solid 3px #2e72c5;
+}
+
+#portalcar {
+    background-color: #2d2b30;
+    border: solid 3px #2d2b30;
+}
+
+#clube {
+    background-color: #fa0b36;
+    border: solid 3px #fa0b36;
+}
+
+#cartaz {
+    background-color: #ff8810;
+    border: solid 3px #ff8810;
+}
+
+#ifood {
+    background-color: #1a1a1a;
+    border: solid 3px #1a1a1a;
+}
+
+#quero-novo {
+    background-color: #9b4dee;
+    border: solid 3px #9b4dee;
+}
+
+#quero-antigo {
+    background-color: #9b4dee;
+    border: solid 3px #9b4dee;
+}
+
+#checklist {
+    background-color: #00ac69;
+    border: solid 3px #00ac69;
+}
